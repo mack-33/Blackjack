@@ -1,17 +1,3 @@
-# num = int(input("Please input a number between 1 and 100: "))
-# while num > 100:
-#     print("That is not a valid number.  Please try again.")
-#     num = int(input("Please input a numberbetween 1 and 100: "))
-#     if num < 100: 
-#         continue
-# if num < 49:   
-#      print("The value you entered is lower than 49")
-# elif num > 50: 
-#     print("The value you entered is higher than 50")
-# elif num < 50: 
-#     print("The value you entered is lower than 50")
-# else:
-#      print("The value you entered is 50")
 import random
 num = int(random.randrange(2,21))
 print(num)
