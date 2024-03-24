@@ -1,6 +1,8 @@
 import random
 num = int(random.randrange(2,21))
-print(num)
+
+print ("Hello User, Welcome to Blackjack! Let's Play!")
+print(f"Your number is {num}")
 
     
 while num < 21:
